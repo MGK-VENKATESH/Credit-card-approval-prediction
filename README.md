@@ -33,4 +33,39 @@ The dataset used in this project was sourced from Kaggle:
 
 ---
 
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+
+bash code:
+git clone https://github.com/MGK-VENKATESH/credit-approval-app.git
+cd credit-approval-app
+
+pip install -r requirements.txt
+
+pip install pandas numpy scikit-learn streamlit
+
+python credit.py
+
+python credit.py
+
+streamlit run app.py
+
+---
+
+## Model Performance
+Algorithm: Random Forest Classifier
+
+Accuracy on test set: ~89%
+
+Key influencing features: income, employment history, education level, family status.
+
+---
+## Disclaimer
+This app is for educational and demonstration purposes only. Real-world credit approvals involve far more complexity and regulatory checks.
+
+
+
+
+
 
